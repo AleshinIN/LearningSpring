@@ -4,38 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk2/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk2/TestSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/ClassicMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk8/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk8/Main.java" afterDir="false" />
+    <list default="true" id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="Создание бинов и внедрение зависимостей через XML. lk1-8">
       <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/ClassicalMusic.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/Computer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/Music.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/MusicPlayer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/RockMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Мысли.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Сочетание клавиш(Хоткеи).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/musicCase.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/appContAnnatation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk8/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk8/ClassicalMusic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -96,7 +74,7 @@
       <recent name="springcourse.alishev.lk6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.springcourse.alishev.lk8.Main">
+  <component name="RunManager" selected="Application.springcourse.alishev.lk9_10.Main">
     <configuration name="springcourse.alishev.lk5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk5.Main" />
       <module name="LearningSpring" />
@@ -164,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.springcourse.alishev.lk8.Main" />
         <item itemvalue="Application.springcourse.alishev.lk9_10.Main" />
+        <item itemvalue="Application.springcourse.alishev.lk8.Main" />
         <item itemvalue="Application.springcourse.alishev.lk7.Main" />
         <item itemvalue="Application.springcourse.alishev.lk6.Main" />
         <item itemvalue="Application.springcourse.alishev.lk5.Main" />
@@ -184,8 +162,16 @@
       <workItem from="1661330039482" duration="9117000" />
       <workItem from="1661415677402" duration="6770000" />
       <workItem from="1661846815822" duration="15530000" />
-      <workItem from="1662039474756" duration="3652000" />
+      <workItem from="1662039474756" duration="4823000" />
     </task>
+    <task id="LOCAL-00001" summary="Создание бинов и внедрение зависимостей через XML. lk1-8">
+      <created>1662043693165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662043693165</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,5 +187,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создание бинов и внедрение зависимостей через XML. lk1-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание бинов и внедрение зависимостей через XML. lk1-8" />
   </component>
 </project>

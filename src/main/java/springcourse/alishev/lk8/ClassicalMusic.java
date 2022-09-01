@@ -10,11 +10,11 @@ public class ClassicalMusic implements Music {
     }
 
     public void doMyInit() {
-        System.out.println("Doing my initialization");
+        System.out.println("Инициализация бина: " + this.getClass());
     }
 
     public void doMyDestroy() {
-        System.out.println("Doing my destruction");
+        System.out.println("Закрытие бина: " + this.getClass());
     }
 
     @Override

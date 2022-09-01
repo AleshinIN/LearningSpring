@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+<!--Почему-то жестко конфликтует, когда создаёшь в одном конфигурационном файле бины разным способом(XML и аннотации) -->
+
+<!--lk9_10 Создание бинов через аннотацию component. id бина = имени класса с маленькой буквы-->
+    <context:component-scan base-package="springcourse.alishev.lk9_10" /> <!--указываем папку для сканирования всех вайлов на наличие аннотации-->
+    <!-- Создание зависимостей через аннотацию Autowired. Выбирает из всех бинов только тот, что подходит по типу и передает его.
+        Можно пометить:
+        * поле - зависимость будет внедрена через рефлексию
+        * сеттер - имя может быть любым(даже не начинаться на set)
+        * конструктор
+        Если подходящего бина нет, то ошибка. Если подходящих бинов много, то тоже плохо, но эту проблему можно решить.-->
+
+</beans>
