@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk2/TestBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk2/TestSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/ClassicMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk4/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk8/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Мысли.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Сочетание клавиш(Хоткеи).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/musicCase.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Dl7FSr6nELBAJy1xLq9EAI3q4p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Алёшин Иван/IdeaProjects/LearningSpring/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24913892&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;094b91b44600a09c492bad4370ff9f12&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="springcourse.alishev.lk8" />
+      <recent name="springcourse.alishev.lk6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.springcourse.alishev.lk8.Main">
+    <configuration name="springcourse.alishev.lk5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk5.Main" />
+      <module name="LearningSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springcourse.alishev.lk5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springcourse.alishev.lk6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk6.Main" />
+      <module name="LearningSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springcourse.alishev.lk6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springcourse.alishev.lk7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk7.Main" />
+      <module name="LearningSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springcourse.alishev.lk7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springcourse.alishev.lk8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk8.Main" />
+      <module name="LearningSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springcourse.alishev.lk8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springcourse.alishev.lk9_10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk9_10.Main" />
+      <module name="LearningSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springcourse.alishev.lk9_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.springcourse.alishev.lk8.Main" />
+        <item itemvalue="Application.springcourse.alishev.lk9_10.Main" />
+        <item itemvalue="Application.springcourse.alishev.lk7.Main" />
+        <item itemvalue="Application.springcourse.alishev.lk6.Main" />
+        <item itemvalue="Application.springcourse.alishev.lk5.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="" />
+      <created>1661261715496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661261715496</updated>
+      <workItem from="1661261717866" duration="5739000" />
+      <workItem from="1661330039482" duration="9117000" />
+      <workItem from="1661415677402" duration="6770000" />
+      <workItem from="1661846815822" duration="15530000" />
+      <workItem from="1662039474756" duration="3652000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

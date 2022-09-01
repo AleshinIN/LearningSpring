@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Является конфигурационным файлом для Spring-->
+
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+<!--lk2-->
+    <bean id="testBean"
+          class="springcourse.alishev.lk2.TestBean">
+        <constructor-arg value="Ivan"/> <!--value - примитивный аргумент для конструктора -->
+    </bean>
+<!--lk4-->
+    <bean id="musicRock"
+          class="springcourse.alishev.lk4.RockMusic">
+    </bean>
+<!--lk5 внедрение зависимостей через конструктор-->
+    <bean id="musicPlayer"
+          class="springcourse.alishev.lk4.MusicPlayer">
+        <constructor-arg ref="musicRock"/> <!--ref - передаем объект в конструктор(зависимость) -->
+    </bean>
+<!--lk6 внедрение зависимостей через сеттер-->
+    <bean id="setMusicPlayer"
+          class="springcourse.alishev.lk4.MusicPlayer">
+        <property name="music1F" ref="musicRock"/> <!-- property - работаем с set-методом. name - имя метода без set -->
+        <property name="name" value="NameLk6"/>
+        <property name="volume" value="69"/>
+    </bean>
+
+    <!-- задаем свойства объекта через файл  -->
+    <context:property-placeholder location="classpath:musicCase.properties"/>
+    <bean id="propertiesMusicPlayer"
+          class="springcourse.alishev.lk4.MusicPlayer">
+        <property name="music1F" ref="musicRock"/> <!-- property - работаем с set-методом. name - имя метода без set -->
+        <property name="name" value="${musicPlayer.name}"/> <!-- ${указываем ключ из файла}  -->
+        <property name="volume" value="${musicPlayer.volume}"/>
+    </bean>
+<!--lk7 способы создания объекта(Scope)-->
+    <!--Singletone - используется по умолчанию. Бины создаются единожды при считывании XML-файла(новое считывание - новые бины ) -->
+    <bean id="musicPlayerSingletone"
+          class="springcourse.alishev.lk4.MusicPlayer">
+        <constructor-arg ref="musicRock"/>
+    </bean>
+
+    <!--Prototype - возвращает ссылку на разные объекты. Создаются новые бины при вызове getBean -->
+    <bean id="musicPlayerPrototypee"
+          class="springcourse.alishev.lk4.MusicPlayer"
+          scope="prototype">
+        <constructor-arg ref="musicRock"/>
+    </bean>
+    <!--request    -->
+    <!--session    -->
+    <!--global-session    -->
+<!--lk8 Методы из класса бинов: init, destroy, factory-->
+    <!--init - инициализация бина. Выполнить какую-то логику до момента создания объекта-->
+    <!--destroy - выполнить какое-то действие с бином перед завершением Spring приложения. К примеру, закрытие доступа к БД-->
+    <bean id="musicPlayerInitSingletone"
+          class="springcourse.alishev.lk4.MusicPlayer"
+          init-method="initMethod"
+          destroy-method="destroyMethod">
+        <constructor-arg ref="musicRock"/>
+    </bean>
+    <bean id="musicPlayerInitPrototype"
+          class="springcourse.alishev.lk4.MusicPlayer"
+          scope="prototype"
+          init-method="initMethod"
+          destroy-method="destroyMethod">
+        <constructor-arg ref="musicRock"/>
+    </bean>
+    <!--factory - указать метод, который будет создавать объект(Spring будет вызывать этот метод вместо "new").
+        Для данного паттерна следует делать конструктор объекта приватным. При scope Singletone factory будет вызван лишь один раз, а дальше будет подсовываться старая ссылка на объект-->
+    <bean id="musicPlayerFactory"
+          class="springcourse.alishev.lk8.ClassicalMusic"
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="getClassicalMusic">
+    </bean>
+</beans>
