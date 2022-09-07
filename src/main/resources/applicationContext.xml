@@ -18,7 +18,7 @@
           class="springcourse.alishev.lk4.RockMusic">
     </bean>
 <!--lk5 внедрение зависимостей через конструктор-->
-    <bean id="musicPlayer"
+    <bean id="musicPlayerDZ"
           class="springcourse.alishev.lk4.MusicPlayer">
         <constructor-arg ref="musicRock"/> <!--ref - передаем объект в конструктор(зависимость) -->
     </bean>
@@ -35,8 +35,8 @@
     <bean id="propertiesMusicPlayer"
           class="springcourse.alishev.lk4.MusicPlayer">
         <property name="music1F" ref="musicRock"/> <!-- property - работаем с set-методом. name - имя метода без set -->
-        <property name="name" value="${musicPlayer.name}"/> <!-- ${указываем ключ из файла}  -->
-        <property name="volume" value="${musicPlayer.volume}"/>
+        <property name="name" value="${musicPlayerDZ.name}"/> <!-- ${указываем ключ из файла}  -->
+        <property name="volume" value="${musicPlayerDZ.volume}"/>
     </bean>
 <!--lk7 способы создания объекта(Scope)-->
     <!--Singletone - используется по умолчанию. Бины создаются единожды при считывании XML-файла(новое считывание - новые бины ) -->

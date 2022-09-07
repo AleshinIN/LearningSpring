@@ -1,4 +1,4 @@
-package springcourse.alishev.lk9_10;
+package springcourse.alishev.lk9_10_11_12;
 
 public interface Music {
     String getSong();

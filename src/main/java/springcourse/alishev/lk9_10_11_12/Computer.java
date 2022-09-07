@@ -1,4 +1,4 @@
-package springcourse.alishev.lk9_10;
+package springcourse.alishev.lk9_10_11_12;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
