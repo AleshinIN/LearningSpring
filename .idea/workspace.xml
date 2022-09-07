@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="Создание бинов и внедрение зависимостей через Annotation. lk9-10">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/DZ/ClassicalMusicDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/DZ/ComputerDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/DZ/EnumMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/DZ/MainDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/DZ/MusicDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/DZ/MusicPlayerDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/DZ/RockMusicDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/MusicPlayer.java" afterDir="false" />
+    <list default="true" id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="Использование аннотаций + XML для создания объектов и зависимостей. lk9-12">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/ClassicalMusicDZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/ComputerDZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/MainDZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/MusicDZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/MusicPlayerDZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/RockMusicDZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/SpringConfigDZ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/SpringConfigur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/Music.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/MusicPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk9_10_11/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/appContAnnotation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/appContAnnotation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +31,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Алёшин Иван/IdeaProjects/LearningSpring/src/main/java/springcourse/alishev/lk9_10_11/DZ",
+    "last_opened_file_path": "C:/Users/Алёшин Иван/IdeaProjects/LearningSpring/src/main/java/springcourse/alishev/lk13",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,21 +69,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\java\springcourse\alishev\lk13" />
       <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\java\springcourse\alishev\lk9_10_11\DZ" />
       <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="springcourse.alishev.lk13" />
       <recent name="springcourse.alishev.lk8" />
       <recent name="springcourse.alishev.lk6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.springcourse.alishev.lk9_10_11_12.DZ.MainDZ">
-    <configuration name="springcourse.alishev.lk6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk6.Main" />
+  <component name="RunManager" selected="Application.MainDZ">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk13.Main" />
       <module name="LearningSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springcourse.alishev.lk6.*" />
+          <option name="PATTERN" value="springcourse.alishev.lk13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="springcourse.alishev.lk7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk7.Main" />
+    <configuration name="MainDZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk13.DZ.MainDZ" />
       <module name="LearningSpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springcourse.alishev.lk7.*" />
+          <option name="PATTERN" value="springcourse.alishev.lk13.DZ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDZ" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.springcourse.alishev.lk9_10_11_12.DZ.MainDZ" />
         <item itemvalue="Application.springcourse.alishev.lk9_10_11_12.Main" />
         <item itemvalue="Application.springcourse.alishev.lk8.Main" />
-        <item itemvalue="Application.springcourse.alishev.lk7.Main" />
-        <item itemvalue="Application.springcourse.alishev.lk6.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +168,7 @@
       <workItem from="1661415677402" duration="6770000" />
       <workItem from="1661846815822" duration="15530000" />
       <workItem from="1662039474756" duration="6495000" />
-      <workItem from="1662472189937" duration="10006000" />
+      <workItem from="1662472189937" duration="19341000" />
     </task>
     <task id="LOCAL-00001" summary="Создание бинов и внедрение зависимостей через XML. lk1-8">
       <created>1662043693165</created>
@@ -190,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662046429216</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Использование аннотаций + XML для создания объектов и зависимостей. lk9-12">
+      <created>1662542171927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662542171927</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создание бинов и внедрение зависимостей через XML. lk1-8" />
     <MESSAGE value="Создание бинов и внедрение зависимостей через Annotation. lk9-10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание бинов и внедрение зависимостей через Annotation. lk9-10" />
+    <MESSAGE value="Использование аннотаций + XML для создания объектов и зависимостей. lk9-12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Использование аннотаций + XML для создания объектов и зависимостей. lk9-12" />
   </component>
 </project>
