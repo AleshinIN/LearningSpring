@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LearningSpring:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="Использование аннотаций + XML для создания объектов и зависимостей. lk9-12">
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/ClassicalMusicDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/ComputerDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/MainDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/MusicDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/MusicPlayerDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/RockMusicDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/DZ/SpringConfigDZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk13/SpringConfigur.java" afterDir="false" />
+    <list default="true" id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="Создание MVC с помощью xml(lk14-15) и java-class(lk16). lk13">
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk14_15/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk14_15/MVC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk16/config/MySpringMvcDispatcherSerlvetIntitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk16/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Мысли.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Мысли.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +37,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Enum" />
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,29 +63,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Алёшин Иван/IdeaProjects/LearningSpring/src/main/java/springcourse/alishev/lk13",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.24913892",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "spring.configuration.checksum": "094b91b44600a09c492bad4370ff9f12"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Алёшин Иван/IdeaProjects/LearningSpring/src/main/java/springcourse/alishev/lk13&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24913892&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ff31394d0016934d665dc5992ac1745a&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\java\springcourse\alishev\lk13" />
       <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\java\springcourse\alishev\lk9_10_11\DZ" />
       <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="springcourse.alishev.lk13" />
@@ -79,7 +97,7 @@
       <recent name="springcourse.alishev.lk6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainDZ">
+  <component name="RunManager" selected="Tomcat Server.lk14_15 Tomcat 9.0.65">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk13.Main" />
       <module name="LearningSpring" />
@@ -99,19 +117,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="springcourse.alishev.lk13.DZ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="springcourse.alishev.lk8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springcourse.alishev.lk8.Main" />
-      <module name="LearningSpring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springcourse.alishev.lk8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,13 +150,111 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="lk14_15 Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="LearningSpring:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="c41e1bb0-b77d-40dd-b481-52dac0d81108" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58910" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="LearningSpring:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainDZ" />
+      <item itemvalue="Application.springcourse.alishev.lk9_10_11_12.DZ.MainDZ" />
+      <item itemvalue="Application.springcourse.alishev.lk9_10_11_12.Main" />
+      <item itemvalue="HTTP Request.generated-requests | #1" />
+      <item itemvalue="Tomcat Server.lk14_15 Tomcat 9.0.65" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="Application.MainDZ" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.springcourse.alishev.lk9_10_11_12.DZ.MainDZ" />
         <item itemvalue="Application.springcourse.alishev.lk9_10_11_12.Main" />
-        <item itemvalue="Application.springcourse.alishev.lk8.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +271,13 @@
       <workItem from="1661415677402" duration="6770000" />
       <workItem from="1661846815822" duration="15530000" />
       <workItem from="1662039474756" duration="6495000" />
-      <workItem from="1662472189937" duration="19341000" />
+      <workItem from="1662472189937" duration="22527000" />
+      <workItem from="1662563689973" duration="699000" />
+      <workItem from="1662643155173" duration="5632000" />
+      <workItem from="1662965621717" duration="34000" />
+      <workItem from="1663007256863" duration="3360000" />
+      <workItem from="1663163164998" duration="1726000" />
+      <workItem from="1663523265780" duration="6173000" />
     </task>
     <task id="LOCAL-00001" summary="Создание бинов и внедрение зависимостей через XML. lk1-8">
       <created>1662043693165</created>
@@ -191,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662542171927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Использование аннотаций + java-класс для конфигурации. lk13">
+      <created>1662555296396</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662555296396</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +328,8 @@
     <MESSAGE value="Создание бинов и внедрение зависимостей через XML. lk1-8" />
     <MESSAGE value="Создание бинов и внедрение зависимостей через Annotation. lk9-10" />
     <MESSAGE value="Использование аннотаций + XML для создания объектов и зависимостей. lk9-12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Использование аннотаций + XML для создания объектов и зависимостей. lk9-12" />
+    <MESSAGE value="Использование аннотаций + java-класс для конфигурации. lk13" />
+    <MESSAGE value="Создание MVC с помощью xml(lk14-15) и java-class(lk16). lk13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание MVC с помощью xml(lk14-15) и java-class(lk16). lk13" />
   </component>
 </project>
