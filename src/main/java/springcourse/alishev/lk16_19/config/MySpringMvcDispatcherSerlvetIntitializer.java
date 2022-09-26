@@ -1,4 +1,4 @@
-package springcourse.alishev.lk16.config;
+package springcourse.alishev.lk16_19.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

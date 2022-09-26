@@ -1,4 +1,4 @@
-package springcourse.alishev.lk16.config;
+package springcourse.alishev.lk16_19.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -13,7 +13,7 @@ import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 @Configuration
-@ComponentScan("springcourse.alishev.lk16") // указываем где лежит контроллер
+@ComponentScan("springcourse.alishev.lk16_19") // указываем где лежит контроллер
 @EnableWebMvc
 public class SpringConfig implements WebMvcConfigurer { // WebMvcConfigurer используется когда хотим под себя настроить Спринг MVC(вместо стандартного шаблонизатора использовать таймлиф)
 
