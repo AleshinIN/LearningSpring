@@ -9,18 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="Создание MVC с помощью xml(lk14-15) и java-class(lk16)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HTML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SpringAnnotation" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Планы по изучению.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/bay_world.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/httpParametr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/httpParametr2.html" afterDir="false" />
+    <list default="true" id="1e8eba0d-50a1-42cd-b0cc-9e8b584fa118" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk14_15/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk14_15/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Мысли.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Мысли.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk16_19/config/MySpringMvcDispatcherSerlvetIntitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springcourse/alishev/lk16_19/config/SpringConfig.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +38,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -63,25 +56,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Алёшин Иван/IdeaProjects/LearningSpring/src/main/webapp/WEB-INF/views",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.24913892",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
-    "spring.configuration.checksum": "ff31394d0016934d665dc5992ac1745a"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Алёшин Иван/IdeaProjects/LearningSpring/src/main/webapp/WEB-INF/views&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.24913892&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ff31394d0016934d665dc5992ac1745a&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\webapp\WEB-INF\views" />
@@ -90,6 +83,7 @@
       <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring" />
       <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\java" />
       <recent name="C:\Users\Алёшин Иван\IdeaProjects\LearningSpring\src\main\webapp\WEB-INF" />
     </key>
